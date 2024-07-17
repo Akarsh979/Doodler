@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "postinstall": "node dataset_generator && node feature_extractor && node run_evaluation"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "dataset_generator.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
